@@ -8,13 +8,18 @@
 
 ## Raspberry
 
+### Code
+[example with 3008](http://www.electroensaimada.com/adc.html)
+
 ### Modules
 
 #### ADC 
 
-Description|Bits|Channels|Price|Chip
----|---|---|---|---
-[Deltha Sigma Pi](https://www.abelectronics.co.uk/products/3/Raspberry-Pi/14/Delta-Sigma-Pi)|18|8|18 £|[MCP3424](http://www.microchip.com/wwwproducts/Devices.aspx?product=MCP3424)
+Description|Bits|Channels|Price|Chip|sps
+---|---|---|---|---|---
+[Deltha Sigma Pi](https://www.abelectronics.co.uk/products/3/Raspberry-Pi/14/Delta-Sigma-Pi|18|8|18 £|[MCP3424](http://www.microchip.com/wwwproducts/Devices.aspx?product=MCP3424)|3.7(18),240(12)
+[ADS1115 (Programmable Gain Amplifier)](http://www.adafruit.com/product/1085)|16|4|$14.95||860
+[ADS1015 (Programmable Gain Amplifier)](http://www.adafruit.com/products/1083)|12|4|$9.95|| 3300
 
 #### DAC
 
