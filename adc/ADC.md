@@ -19,6 +19,10 @@
 
 [example with MCP3424](https://github.com/abelectronicsuk/ABElectronics_Python_Libraries/tree/master/ADCPi)
 
+## SMT32
+
+[miniscope (USB oscilloscope) 2x461kSps](http://tomeko.net/miniscope_v2c/index.php?lang=en)
+
 ### Modules
 
 #### ADC 
