@@ -1,15 +1,22 @@
-Dada la gran variedad existente de tecnologías de producción fotovoltaica, es comúnmente aceptada la necesidad de poder comparar el rendimiento de estos distintos sistemas de producción de energía eléctrica. 
+## Definición del problema
 
-Para poder comparar el rendimiento se necesita desarrollar un procedimiento que sea lo más estándar posible, para así poder disponer de él el cualquier entorno.
+Dada la gran variedad existente de tecnologías de producción fotovoltaica, es comúnmente aceptada la necesidad de poder comparar el rendimiento de estos distintos sistemas de producción de energía eléctrica. Del mismo modo se hace necesario monitorizar la producción con el fin de detectar posibles deficiencias que impidan maximizar la producción energética.
 
-Para definir este estándar sería útil el poder tener un sistema de medida basado en sistemas lo más abiertos posible. Una forma  de garantizar la reproductibilidad y la claridad en el proceso de medida es utilizar dispositivos basados en open hardware (OH), cuyo esquemas están totalmente abierto y disponibles para que cualquiera pueda reproducir los experimentos y medidas.
+Para poder comparar el rendimiento se necesita definier un procedimiento estándar de comparación de rendimiento, que debe estar disponible en la mayor cantidad porsible de situaciones.
 
-El movimiento opensource, ha producido a día de hoy una amplia variedad de dispositivos, que van desde pequeños montajes basados en microcontroladores hasta desarrollo de servidores ¿Facebook hardware? 
+Este método de comparación debería estar respaldado por una comparación detallada de las curvas I-V de los distintos generadores fotovoltaicos.
 
-Uno de los desarrollo OH más existosos hasta el momento ha sido Arduino, una placa de prototipada rápido creado en torno a los microcontroladores de la serie ATMega (inicialmente ATMega168, ATMega328, ATMega1280 y ATMega2560) desarrollado por un grupo de ingenieros de diferentes paises. En la web del proyecto se puede encontrar toda la documentación necesaria para poder crear los equipos electrónicos, incluyendo por supuesto los diseños de las placas de circuito impreso (PCB), así como todo el software necesario para programarlo (tanto entorno de desarrollo como el bootloader y las librerías que se usan)
+## Herramienta a utilizar
 
-El proyecto que se pretente realizar trata de desarrollar un sistema de medida basado en Arduino capaz de medir de forma sencilla las curvas I/V de diferentes sistemas fotovoltaicos.
+Para definir este estándar sería extremadamente útil el disponer de un sistema de medida basado en sistemas abiertos, lo que garantiza la reproductibilidad y la claridad en el proceso de medida. Es por ello que parece necesario utilizar dispositivos basados en open hardware (OH), cuyos diseños son totalmente publicos y abiertos, así como el software que utilizan, permitiendo que cualquiera pueda reproducir los experimentos y medidas.
 
+El movimiento [OpenSource](http://opensource.org/), ha producido a día de hoy una amplia variedad de dispositivos, que van desde pequeños montajes basados en microcontroladores, del que [Arduino](http://arduino.cc) puede ser el máximo exponente, hasta desarrollos de servidores ([Open compute project de Facebook](http://www.opencompute.org/)). Importantes organizaciones científicas (como el CERN) y empresas (como Intel, ATMel o Texas Instruments), se han sumado a esta inciativa, como se puede ver en el [Open Hardware Repository](http://www.ohwr.org/) 
+
+Uno de los desarrollo OH más existosos hasta el momento ha sido Arduino, una placa de prototipado rápido creado en torno a los microcontroladores de la serie ATMega (inicialmente ATMega168, ATMega328, ATMega1280 y ATMega2560) desarrollado por un grupo de ingenieros de diferentes paises, lo que evidencia también como la cultura abierta facilita la cooperación hasta el punto de desarrolar sistemas de forma totalmente abierta. En la [web del proyecto](http://www.arduino.cc/en/Main/Products) se puede encontrar toda la documentación necesaria para poder fabricar la mayoría de estos dispositivos electrónicos, incluyendo tanto los diseños de las placas de circuito impreso (PCB), así como todo el software necesario para utilizarlo y programarlo (tanto entorno de desarrollo como el bootloader y las librerías que se usan).
+
+## Proyecto
+
+El proyecto que se pretente realizar trata de desarrollar un sistema de medida basado en soluciones Open-Hardeare capaz de medir de forma sencilla las curvas I/V de sistemas fotovoltaicos en diferentes situaciones.
 
 Existen distintas formas de medir el comportamiento de los sistemas, dependiendo principalmente de la historia de producción de las mismas, estando todas ellas expuestas a la irradiación solar:
 
