@@ -23,6 +23,8 @@
 
 [miniscope (USB oscilloscope) 2x461kSps](http://tomeko.net/miniscope_v2c/index.php?lang=en)
 
+[doc](https://github.com/javacasm/elcacharreo_static/blob/master/_posts/2015-04-23-STM32.md)
+
 ### Modules
 
 #### ADC 
