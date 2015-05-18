@@ -2,7 +2,7 @@
 
 Dada la gran variedad existente de tecnologías de producción fotovoltaica, es comúnmente aceptada la necesidad de poder comparar el rendimiento de estos distintos sistemas de producción de energía eléctrica. Del mismo modo se hace necesario monitorizar la producción con el fin de detectar posibles deficiencias que impidan maximizar la producción energética.
 
-Para poder comparar el rendimiento se necesita definier un procedimiento estándar de comparación de rendimiento, que debe estar disponible en la mayor cantidad porsible de situaciones.
+Para poder comparar el rendimiento se necesita definir un procedimiento estándar de comparación de rendimiento, que debe estar disponible en la mayor cantidad porsible de situaciones.
 
 Este método de comparación debería estar respaldado por una comparación detallada de las curvas I-V de los distintos generadores fotovoltaicos.
 
