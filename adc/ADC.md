@@ -15,11 +15,11 @@
 
 #### ADC 
 
-Description|Bits|Channels|Price|Chip|sps
----|---|---|---|---|---
-[Deltha Sigma Pi](https://www.abelectronics.co.uk/products/3/Raspberry-Pi/14/Delta-Sigma-Pi)|18|8|18 £|[MCP3424](http://www.microchip.com/wwwproducts/Devices.aspx?product=MCP3424)|3.7(18),240(12)
-[ADS1115 (Programmable Gain Amplifier)](http://www.adafruit.com/product/1085)|16|4|$14.95||860
-[ADS1015 (Programmable Gain Amplifier)](http://www.adafruit.com/products/1083)|12|4|$9.95|| 3300
+Description|Bits|Channels|Price|Chip|sps|PGA|Datasheet
+---|---|---|---|---|---|---|---
+[Deltha Sigma Pi](https://www.abelectronics.co.uk/products/3/Raspberry-Pi/14/Delta-Sigma-Pi)|18|8|18 £|[MCP3424](http://www.microchip.com/wwwproducts/Devices.aspx?product=MCP3424)|3.7(18),240(12)|No|[Datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/22088c.pdf)
+[ADS1115](http://www.adafruit.com/product/1085)|16|4|$14.95||860|Yes x16|[DataSheet](http://www.adafruit.com/datasheets/ads1115.pdf)
+[ADS1015](http://www.adafruit.com/products/1083)|12|4|$9.95||3300|Yes x16|[Datasheet](http://adafruit.com/datasheets/ads1015.pdf)
 
 #### DAC
 
