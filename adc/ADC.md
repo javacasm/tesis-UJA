@@ -10,6 +10,8 @@
 
 ### Code
 [example with 3008](http://www.electroensaimada.com/adc.html)
+[example with ads1x15](https://github.com/adafruit/Adafruit-Raspberry-Pi-Python-Code/tree/master/Adafruit_ADS1x15)
+[example with MCP3424](https://github.com/abelectronicsuk/ABElectronics_Python_Libraries/tree/master/ADCPi)
 
 ### Modules
 
