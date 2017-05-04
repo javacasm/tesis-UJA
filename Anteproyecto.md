@@ -10,7 +10,7 @@ Este método de comparación debería estar respaldado por una comparación deta
 
 Para definir este estándar sería extremadamente útil el disponer de un sistema de medida basado en sistemas abiertos, lo que garantiza la reproductibilidad y la claridad en el proceso de medida. Es por ello que parece necesario utilizar dispositivos basados en Open Hardware, cuyos diseños son totalmente publicos y abiertos, así como el software que utilizan, permitiendo que cualquiera pueda reproducir los experimentos y medidas.
 
-El movimiento [OpenSource](http://opensource.org/), ha producido a día de hoy una amplia variedad de dispositivos, que van desde pequeños montajes basados en microcontroladores, del que [Arduino](http://arduino.cc) puede ser el máximo exponente, hasta desarrollos de servidores ([Open compute project de Facebook](http://www.opencompute.org/)). Importantes organizaciones científicas (como el CERN) y empresas (como Intel, ATMel o Texas Instruments), se han sumado a esta inciativa, como se puede ver en el [Open Hardware Repository](http://www.ohwr.org/) 
+El movimiento [OpenSource](http://opensource.org/), ha producido a día de hoy una amplia variedad de dispositivos, que van desde pequeños montajes basados en microcontroladores, del que [Arduino](http://arduino.cc) puede ser el máximo exponente, hasta desarrollos de servidores ([Open compute project de Facebook](http://www.opencompute.org/)). Importantes organizaciones científicas (como el CERN) y empresas (como Intel, ATMel o Texas Instruments), se han sumado a esta inciativa, como se puede ver en el [Open Hardware Repository](http://www.ohwr.org/)
 
 Uno de los desarrollos OH más existosos hasta el momento ha sido Arduino, una placa de prototipado rápido, barata y sencilla de programar y usar, que utiliza microcontroladores de la serie ATMega (inicialmente ATMega168, ATMega328, ATMega1280 y ATMega2560), desarrollado por un grupo de ingenieros de diferentes paises, lo que evidencia también como la cultura abierta facilita la cooperación, y que ha permitido crear proyectos moderamente avanzados a un público que hasta hace poco se sentía incapaz de ello. En la [web del proyecto](http://www.arduino.cc/en/Main/Products) se puede encontrar toda la documentación necesaria para poder fabricar la mayoría de estos dispositivos electrónicos, incluyendo tanto los diseños de las placas de circuito impreso (PCB), así como todo el software necesario para utilizarlo y programarlo (tanto entorno de desarrollo como el bootloader y las librerías que se usan).
 
@@ -34,11 +34,11 @@ Es por esto que el proyecto que se va a realizar va a desarrollar un sistema de 
 
 Para determinar la influencia de método de medida en el resultado final se pretende diseñar un protocolo experimental que cuantifique esta influencia:
 
-Varios conjuntos de distintos tipos de placas se someterán a ciclos de producción y posteriormente se medirán sus curvas características IV con el dispositivo de medida basado en Open-Hardware 
+Varios conjuntos de distintos tipos de placas se someterán a ciclos de producción y posteriormente se medirán sus curvas características IV con el dispositivo de medida basado en Open-Hardware
 
 ## Objetivos
 
-* Desarrollar una plataforma Open Hardwar de medida, utilizando sistemas abiertos y de bajo coste
+* Desarrollar una plataforma Open Hardware de medida, utilizando sistemas abiertos y de bajo coste
 
 * Definir un protocolo de medida para distintos sistemas de placas
 
